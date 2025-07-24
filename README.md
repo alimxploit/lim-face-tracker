@@ -12,7 +12,11 @@ Tools OSINT edukatif buatan AlimXploit untuk melacak lokasi dari metadata (EXIF)
 - Bisa dijalankan di Termux & Python PC
 
 ## 📦 Instalasi (di Termux):
-```bash
-pkg update && pkg install python -y
-pip install exifread
+GIT CLONE:
+https://github.com/alimxploit/alim-face-tracker
+
+pkg update && pkg upgrade -y
+pkg install git python -y
+git clone https://github.com/alimxploit/alim-face-tracker
+cd alim-face-tracker
 python alim-face-tracker.py
